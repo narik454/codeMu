@@ -21,6 +21,7 @@ import {ex7_7} from "./BookJS/Lesson7/ex7_7.js";
 import {ex7_8} from "./BookJS/Lesson7/ex7_8.js";
 import {ex7_11} from "./BookJS/Lesson7/ex7_11.js";
 import {ex7_14} from "./BookJS/Lesson7/ex7_14.js";
+import {ex11_3} from "./BookJS/Lesson11/ex11_3.js";
 
 ex1();
 
@@ -67,3 +68,5 @@ ex7_8();
 ex7_11();
 
 ex7_14();
+
+ex11_3();
