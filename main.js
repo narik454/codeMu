@@ -22,51 +22,43 @@ import {ex7_8} from "./BookJS/Lesson7/ex7_8.js";
 import {ex7_11} from "./BookJS/Lesson7/ex7_11.js";
 import {ex7_14} from "./BookJS/Lesson7/ex7_14.js";
 import {ex11_3} from "./BookJS/Lesson11/ex11_3.js";
+import {ex14_1} from "./BookJS/Lesson14/ex14_1.js";
+import {ex14_2} from "./BookJS/Lesson14/ex14_2.js";
+import {arrayFill} from "./BookJS/Lesson14/ex14_3.js";
+import {ex14_4} from "./BookJS/Lesson14/ex14_4.js";
+import {ex14_5} from "./BookJS/Lesson14/ex14_5.js";
+import {ex14_6} from "./BookJS/Lesson14/ex14_6.js";
+import {ex14_7} from "./BookJS/Lesson14/ex14_7.js";
 
 ex1();
-
 ex2();
-
 ex3();
-
 ex4();
-
 ex5();
-
 ex6();
-
 ex12();
-
 ex13();
-
 ex14();
-
 ex15();
-
 ex3_5();
-
 ex3_6()
-
 ex3_8();
-
 ex5_3();
-
 ex5_4();
-
 ex5_7();
-
 ex5_8();
-
 ex6_14(5);
-
 ex7_6(4);
-
 ex7_7();
-
 ex7_8();
-
 ex7_11();
-
 ex7_14();
-
 ex11_3();
+ex14_1();
+ex14_2();
+// ex14_3
+arrayFill('x', 7);
+ex14_4();
+ex14_5();
+ex14_6();
+ex14_7();
