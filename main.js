@@ -29,6 +29,14 @@ import {ex14_4} from "./BookJS/Lesson14/ex14_4.js";
 import {ex14_5} from "./BookJS/Lesson14/ex14_5.js";
 import {ex14_6} from "./BookJS/Lesson14/ex14_6.js";
 import {ex14_7} from "./BookJS/Lesson14/ex14_7.js";
+import {getDigitsSum} from "./BookJS/Lesson15/ex15_3.js";
+import {ex15_4} from "./BookJS/Lesson15/ex15_4.js";
+import {ex15_6} from "./BookJS/Lesson15/ex15_6.js";
+import {getDivisors} from "./BookJS/Lesson15/ex15_7.js";
+import {ex16_1} from "./BookJS/Lesson16/ex16_1.js";
+import {ex16_2} from "./BookJS/Lesson16/ex16_2.js";
+import {ex17_1} from "./BookJS/Lesson17/ex17_1.js";
+import {ex17_2} from "./BookJS/Lesson17/ex17_2.js";
 
 ex1();
 ex2();
@@ -62,3 +70,12 @@ ex14_4();
 ex14_5();
 ex14_6();
 ex14_7();
+// ex15_3
+console.log(`ex15_3: ${getDigitsSum(2022)}`);
+ex15_4();
+ex15_6();
+getDivisors(100);
+ex16_1('hello mother fucker');
+ex16_2();
+ex17_1();
+ex17_2(99);
