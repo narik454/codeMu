@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            height: 400px;
+        }
+        input[type=text] {
+            margin: 5px;
+            padding: 5px;
+            outline: 0;
+            width: 200px;
+        }
+        #autocompile_list {
+            display: none;
+            position: absolute;
+            left: 0; top: 0;
+            border: 1px solid rgb(150,150,150);
+            z-index: 1;
+            background: #fff;
+            max-height: 250px;
+            overflow: auto;
+            margin-top: 1px;
+        }
+        #autocompile_list div:hover {
+            background: #eee;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="country" autofocus placeholder="Введите страну">
+    <div id="autocompile_list"></div>
+    <script src="index.js"></script>
+</body>
+</html>
